@@ -199,10 +199,11 @@ flex-direction: column;
     margin: 2em;
     padding: 1em;
     background-color: #9a9aa669;
-    border-radius:10px ;
+    border-radius:5px ;
 }
 .outertopartists>span{
-    font-weight: bolder;
+    font-weight: bolder; 
+    /* margin: em; */
 }
 
 
@@ -247,15 +248,34 @@ font-weight: bold;
 }
 
 .topcharts{
-    background-color: #9a9aa669;
+    /* background-color: #9a9aa669; */
+    padding: 2em;
+    padding-top:1em;
 }
-
+.innerchart{
+    background-color: #9a9aa669;    
+    border: 2px solid white ;
+    height: 100%;
+    padding:1em;
+}
+.tops{
+    display:flex;
+}
 
 .rightlower{
     flex-grow: 0.4;
 }
 
-
+.track{
+    display: flex;
+    flex-direction: column;
+    justify-content:spacebetween;
+    flex-grow: 0.2;
+}
+.sng{
+    height: 80px;
+    width: 80px;
+}
 
 .test{
        border: 2px solid white;
