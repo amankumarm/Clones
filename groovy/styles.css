@@ -1,0 +1,262 @@
+*{
+    margin: 0px;
+    padding:0px;
+    font-family: Helvetica ;
+    color:whitesmoke
+}
+body{
+    height:100vh;
+    display: flex;
+    flex-direction: row;
+}
+.left{
+/* border:2px solid red; */
+height: 100%;
+flex-grow:0.06;
+background-color: #202026;
+display: flex;
+flex-direction: column;
+}
+
+.name>span{
+    padding:10px ;
+    padding-left: 1em;
+    letter-spacing: 1.5px;
+    flex-grow: 0.5;
+}
+.name{
+    padding: 1.6em;
+    padding-right: 0em;
+    display: flex;
+    align-items: stretch;
+}
+
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    padding:0em 0em 1.5em 2.2em;
+    color: white;
+}
+.head{
+    letter-spacing: 2.3px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 1em 0em;
+    color: #9A9AA6  ;
+}
+.icon{
+    height: 15px ;
+    width: 15px;
+}
+.item{
+    /* border: 2px solid white; */
+    padding: 1em 0px;
+    display: flex;
+    font-size: 13px;
+    font-weight: 600;
+}
+.info{
+    padding-left: 2em;
+}
+
+.playing-menu{
+    display: flex;
+    padding:1em 0em 1.5em 2.2em;
+    width: 170px;
+    flex-direction: column;
+    
+}
+.playing{
+    background-color: #b2b6b985;
+    border-radius:10px ;
+
+}
+
+.gp{
+    height: 35px ;
+    width: 35px;
+    margin: 0px;
+    padding-left: 10px;
+}
+
+.ghp{
+    padding-left: 1.5em;
+    letter-spacing: 1px;
+}
+
+
+.right{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #18181D;
+
+}
+
+
+.navbar{
+    display: flex;
+    flex-direction:row;
+     /* border:2px solid white; */
+     justify-content: space-around;
+     align-items: center;
+    font-size: 13px;
+    /* font-weight: 500; */
+    padding: 1em 2em;
+
+}
+.li{
+    flex-grow: 0.06;
+    padding:0.2em 1em ;
+    font-weight: bold;
+    text-align: center;
+    list-style: none;
+}
+#search{
+    flex-grow: 1.5;
+    display: flex;
+    padding:5px ;
+    border: 2px solid white;
+    background-color: #202026;
+    border-color: grey;
+    border-radius:10px;
+    margin: 0 8em;
+
+}
+#search>input{
+    flex-grow: 1;
+    height: 30px;
+    background-color: #202026;
+    padding-top: 2px;
+    border: none;
+}
+#search>input::placeholder{
+    color: white;
+}
+#search>input:focus{
+    outline: none;
+}
+.fa{
+    padding: 10px;
+}
+.person{
+    flex-grow:0.1 ;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.719);
+    width: fit-content;
+
+}
+.person > p{
+    padding: 0px 15px;
+    /* border: 2px solid red; */
+}
+.person > img{
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+    /* border: 2px solid red;
+     */
+    border-radius: 5px;
+     background-color: rgba(128, 128, 128, 0.719);
+}
+.trending{
+    display: flex;
+    flex-direction: column;
+    padding-left: 3em;    
+    
+}
+.trending>h1{
+    font-size: 65px;
+}
+.trending>p{
+    padding:1em 0em;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.lsn{
+    background-color: #5773ff;
+    border-radius: 15px;
+    padding: 0.8em 1em;
+    border-color: #5773ff ;
+    font-size: 13px;
+    font-weight: bold;
+
+}
+
+.lower{
+    height: 100%;
+    display: flex;
+    flex-direction:row;
+}
+
+.outertopartists{
+    margin: 2em;
+    padding: 1em;
+    background-color: #9a9aa669;
+    border-radius:10px ;
+}
+.outertopartists>span{
+    font-weight: bolder;
+}
+
+
+.topartists{
+    display: flex;
+    flex-direction: row;
+    padding-top: 1em;
+    /* flex-grow: 1;    */
+}
+.artist{
+    flex-grow: 0.2;
+    justify-content:center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+/* border: 2px solid wheat; */
+}
+
+.artist > img{
+    height: 80px;
+    width:80px;
+    border-radius:20px ;
+}
+.artist > p{
+font-size: 12px;
+letter-spacing: 1;
+padding:0.7em 0em 0em 0em ;
+text-align: start;
+font-weight: bold;
+
+}
+
+.plays{
+    font-size: small;
+    color: #9A9AA6; 
+    padding-top:0.5em ;
+    font-size:11px ;
+}
+
+.leftlower{
+    flex-grow: 0.6;
+}
+
+.topcharts{
+    background-color: #9a9aa669;
+}
+
+
+.rightlower{
+    flex-grow: 0.4;
+}
+
+
+
+.test{
+       border: 2px solid white;
+}
