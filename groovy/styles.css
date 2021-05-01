@@ -5,7 +5,7 @@
     color:whitesmoke
 }
 body{
-    height:100vh;
+    height:120vh;
     display: flex;
     flex-direction: row;
 }
@@ -198,7 +198,7 @@ flex-direction: column;
 .outertopartists{
     margin: 2em;
     padding: 1em;
-    background-color: #9a9aa669;
+    background-color: #202026;
     border-radius:5px ;
 }
 .outertopartists>span{
@@ -244,7 +244,7 @@ font-weight: bold;
 }
 
 .leftlower{
-    flex-grow: 0.6;
+    flex-grow: 1;
 }
 
 .topcharts{
@@ -253,13 +253,14 @@ font-weight: bold;
     padding-top:1em;
 }
 .innerchart{
-    background-color: #9a9aa669;    
-    border: 2px solid white ;
+    background-color: #202026;    
+    border-radius: 5px;
     height: 100%;
     padding:1em;
 }
 .tops{
     display:flex;
+    padding:1em;
 }
 
 .rightlower{
@@ -269,14 +270,44 @@ font-weight: bold;
 .track{
     display: flex;
     flex-direction: column;
-    justify-content:spacebetween;
-    flex-grow: 0.2;
+    flex-grow: 1;
+    align-items: center;
 }
 .sng{
     height: 80px;
     width: 80px;
+    border-radius:20px ;
+}
+.son{
+    font-size: 12px;
+    letter-spacing: 1;
+    padding:0.7em 0em 0em 0em ;
+    text-align: start;
+    font-weight: bold;
 }
 
+.sin{
+    font-size: small;
+    color: #9A9AA6; 
+    padding-top:0.5em ;
+    font-size:11px ;
+}
+.rightlower{
+    padding-top: 1em;
+}
 .test{
-       border: 2px solid white;
+       /* border: 2px solid white; */
+}
+.allgenres{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.gen{
+    flex-grow: 1;
+    border: 2px solid white;
+    /* margin: 1em; */
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
 }
