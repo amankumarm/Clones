@@ -5,13 +5,13 @@
     color:whitesmoke
 }
 body{
-    height:120vh;
+    height:100%;
     display: flex;
     flex-direction: row;
 }
 .left{
 /* border:2px solid red; */
-height: 100%;
+/* height: 100%; */
 flex-grow:0.06;
 background-color: #202026;
 display: flex;
