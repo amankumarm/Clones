@@ -295,9 +295,9 @@ font-weight: bold;
 .rightlower{
     padding-top: 1em;
 }
-.test{
-       /* border: 2px solid white; */
-}
+/* .test{
+       border: 2px solid white;
+} */
 .allgenres{
     display: flex;
     flex-direction: row;
