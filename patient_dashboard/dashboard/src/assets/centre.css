@@ -1,0 +1,20 @@
+.outer_center{
+    /* flex:0 0 60%;     */
+    width:100%;
+}
+.top_nav{
+    background-color:#363f78;
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    height:4.5em;
+}
+.welcome{
+    font-size:12px;
+}
+.nav_name{
+    padding:0.5em 0em 0em 1em;
+}
+.nav_input{
+    background-color:transperant;
+}
