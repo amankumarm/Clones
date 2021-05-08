@@ -1,0 +1,11 @@
+.graph{
+    /* color: white !important; */
+    /* display: none; */
+    /* flex-grow: 0.6; */
+    flex-basis: 60%;
+    border:2px solid red;
+
+}
+.pie{
+    flex-basis: 40%;
+}
